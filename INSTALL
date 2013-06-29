@@ -4,7 +4,7 @@ in order to install and play around with the Perl101.org codebase.
 - Install a webserver (apache, lighttpd, etc.).
 - Create the "build" folder for the "crank" script.
 - Make sure that the "href" path defined in "section.tt"'s javascript matches
-  where your CGI folder will be. It assumes it well be in "/cgi-bin".
+  where your CGI folder will be. It assumes it will be in "/cgi-bin".
 - Make sure that the path for the captcha pictures hardcoded in
   "tt/show_captcha.tt" is good for you.
 - If you need to adjust the path in "show_captcha.tt", recompile the templates
