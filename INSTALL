@@ -11,7 +11,9 @@ in order to install and play around with the Perl101.org codebase.
   using the following command:
   $ jemplate --compile tt/show_captcha.tt tt/show_result.tt > static/js/jmpls.js
   (you must have Jemplate installed)
-- Run the crank script.
+- Clone the `podium` repo from https://github.com/petdance/podium. Install it
+  using `cpanm .`.
+- Run the Makefile: `make`.
 - Copy the built HTML files in your "build" folder into the document root of
   your Perl101.
 - Copy the "static" folder to the same document root.
